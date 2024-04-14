@@ -8,7 +8,7 @@ import classes from "./HomePage.module.scss"
 type Item = {
   result: User | null
   loading: boolean
-  error: string | null
+  error: unknown
 }
 
 const InitialItem = {
