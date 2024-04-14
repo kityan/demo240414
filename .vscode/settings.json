@@ -1,0 +1,13 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "explorer.compactFolders": false,
+  "javascript.preferences.quoteStyle": "double",
+  "typescript.preferences.quoteStyle": "double",
+  "editor.scrollbar.verticalScrollbarSize": 28,
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#333333"
+    }
+  ],
+}

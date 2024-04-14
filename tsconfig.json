@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "module": "es6",
+    "target": "ES6",
+    "jsx": "react",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ]
+  }
+}
