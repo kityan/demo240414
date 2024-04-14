@@ -12,6 +12,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+      },
+      {
+        // gh-pages
+        path: "/demo240414",
+        element: <HomePage />,
       }
     ],
   },
