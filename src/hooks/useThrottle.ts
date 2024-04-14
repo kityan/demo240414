@@ -19,6 +19,6 @@ export function useThrottle<T extends (...args: any) => any>(ms: number | undefi
     }
   } else {
     // console.log("throttled")
-    return () => { }
+    return undefined
   }
 }
